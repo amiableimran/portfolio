@@ -1,0 +1,306 @@
+
+* {
+  padding: 0;
+  motion: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0px 50px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h4 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+}
+
+.small-button,
+.default-button {
+  padding: 20px 55px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(45deg, greenyellow, green);
+  border-radius: 6px;
+}
+
+.default-button svg {
+  margin-right: 10px;
+}
+
+.small-button {
+  padding: 20px 30px;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  margin: 0px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: #3C3C3C;
+}
+
+.banner {
+  padding: 75px 0px;
+}
+
+.banner .text {
+  display: inline-block;
+}
+
+.banner h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #363958;
+}
+
+.another-color {
+  color: yellowgreen !important;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.banner p {
+  margin-bottom: 35px;
+  max-width: 275px;
+}
+
+.about-image,
+.banner .image {
+  width: 500px;
+  float: right;
+  margin-top: -30px;
+}
+
+.about-image img,
+.image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.about {
+  padding-bottom: 100px;
+}
+
+.about-image {
+  float: left;
+  margin: 0;
+  margin-left: -55px;
+}
+
+.about-text {
+  float: right;
+  display: inline-block;
+  width: 40%;
+  margin-top: 30px;
+}
+
+.portfolio-area {
+  margin-top: 530px;
+  display: block;
+}
+
+.portfolio-area h3 {
+  text-align: center;
+  color: #363958;
+}
+
+.portfolio-area h3 span {
+  color: yellowgreen;
+}
+
+.portfolio-item {
+  width: 30%;
+  margin: 0px 20px;
+  box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.portfolio-item img {
+  width: 350px;
+  object-fit: cover;
+}
+
+.portfolio-item h5 {
+  color: #363958;
+  margin: 30px 0px;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  color: #6C6C6C;
+}
+
+.call-action {
+  padding: 100px 0px;
+}
+
+.call-action-area {
+  margin: 0 auto;
+  background-image: url(images/work.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 750px;
+  border-radius: 20px;
+  padding: 0px 50px;
+  position: relative;
+}
+
+.call-action-area h2 {
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+  top: 23%;
+  left: 5%;
+}
+
+.call-action-area .small-button {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 32%;
+  right: 5%;
+}
+
+.contact-form {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+form .input {
+  margin-bottom: 20px;
+}
+
+.input input {
+  padding: 20px 0px 20px 15px;
+  margin: 0px 10px;
+  width: 300px;
+  border: 0px;
+  border-bottom: 1px solid #aeaeae;
+  font-size: 20px;
+  color: #333333;
+}
+
+form textarea {
+  border: 1px solid #aeaeae;
+  resize: none;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  color: #333333;
+}
+
+form button {
+  padding: 15px 30px;
+  color: #ffffff;
+  background: linear-gradient(45deg, greenyellow, green);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #363958;
+}
+
+footer h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #696871;
+}
+
+.social-link {
+  padding-top: 10px;
+}
+
+.social-link a {
+  margin: 0px 10px;
+}
+
+.social-link a img {
+  width: 40px;
+}
